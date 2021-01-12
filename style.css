@@ -1,0 +1,73 @@
+.calculations {
+  display: flex;
+}
+
+.income,
+.outgoings {
+  margin: 10px;
+}
+
+.toggle {
+  display: flex;
+}
+
+#all,
+#outgoings,
+#incomings {
+  padding: 5px;
+}
+
+#all:hover,
+#outgoings:hover,
+#incomings:hover {
+  transition: 0.5s;
+  color: red;
+  cursor: pointer;
+}
+
+.active {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+}
+
+.edit-btn {
+  padding: 5px;
+}
+
+.remove-btn {
+  padding: 5px;
+}
+
+.inputs {
+  display: flex;
+}
+
+.confirm {
+  margin-left: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+i {
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+}

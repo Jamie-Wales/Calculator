@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4939c37c7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="heading">
+            <h1>Welcome to my Money App</h1>
+        </div>
+    </header>
+    <div class="total">
+        <h1 id ="total">Total:</h1>
+    </div>
+    <div class="calculations" aria-role="presentation">
+        <div class="income">
+            <h1 id ='income-total'>Income:</h1>
+        </div>
+        <div class="outgoings">
+            <h1 id='outgoings-total'>Out goings:</h1>
+        </div>
+    </div>
+    <div class="listing" aria-role="presentation">
+        <div class="toggle">
+            <div class="active" id="all" aria-label="Button"><h1>All</h1></div>
+            <div id="outgoings" aria-label="Button"><h1>outgoings</h1></div>
+            <div id="incomings" aria-label="Button"><h1>incomings</h1></div>
+        </div>
+    </div>
+    <div id="all-div">
+        <ul id="all-ul">
+        </ul>
+    </div>
+    <div id='incoming-container' class="incomings-list hide"> 
+        <ul id ="incomings-list">
+        </ul>
+        <div class="inputs">
+            <input type="text" name="title" id="incoming-input">
+            <input type="number" name="amount" id="incoming-amount">
+            <div class="add-incomings"><i class="fas fa-check"></i></div>
+        </div>
+    </div>
+    
+    
+    <div class="hide outgoings-list" id="outgoings-container">
+        <ul id ="outgoing-list">
+        </ul>
+        <div class="inputs">
+            <input type="text" name="title" id="outgoing-title">
+            <input type="number" name="amount" id="outgoing-amount">
+            <div class="add-outgoings" aria-role="button"><i class="fas fa-check"></i></div>
+        </div>
+    </div>
+    
+    
+   <script src="app.js"></script>
+    
+
+
+</body>
+</html>
+
